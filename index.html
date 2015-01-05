@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>animation</title>
+        <meta name="description" content="">        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/magic.css">
+    </head>
+    <body>
+    <main>
+        <div class="container">
+        <h1 class="main_title">Animations web</h1>
+            <section class="section section-1 clearfix">
+                <h1>Pulse animation</h1>
+                <button class="pulse_active btn">pulse it</button>                
+                <div class="btn_pulse pulse-1 pulse">
+                     <div class="btn_pulse pulse-2 pulse"></div>
+                     <div class="btn_pulse pulse-3 pulse"></div>
+                </div>
+                
+            </section>
+            
+            <section class="section section-2">
+                <h1>Reveal, unreveal</h1>
+                <button class="btn btn_content" id="btn_content">catégorie</button>
+                
+                <section class="content" id="content">
+                    
+                    <h1 class="content_title">titre élement</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus labore expedita eligendi nobis totam cumque deleniti nemo quam, sit, vero, illum esse tenetur amet, delectus omnis similique sunt perspiciatis deserunt.</p>
+                </section>                
+            </section><!--end section2-->
+            
+            <section class="section section-3">
+              <h1>Swap - content show</h1>
+               <button class="btn effect">swap</button>
+
+                <section class="information">
+                    <h1 class='information_title'>titre informatif</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis hic, laboriosam, reprehenderit consectetur ut sed sunt at incidunt voluptate veritatis officia iste est qui dolorum dolore expedita necessitatibus eaque. Fugiat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ut voluptatum suscipit. Molestiae libero labore non unde magnam cumque nihil aliquid ab enim, dolores, fugiat minima sint ipsa similique amet.</p>
+                <img src="img/cookies.jpg" alt="cookie monster" class="cookie">
+                </section>
+            </section>
+            
+            <section class="section section-4">
+                <h1>Suppression</h1>
+                <section class="delete_content">
+                   <div class="hide_element"></div>
+                    <div class="element clearfix">Bière A</div>
+                    <button class="delete_beer btn">supprimer</button> 
+                </section>        
+            </section>
+            
+            <section class="section section-5">
+                <h1>icon</h1>
+                
+                    <svg version="1.1" id="star" class="go" viewBox="0 0 15 15" enable-background="new 0 0 15 14.648" xml:space="preserve">
+                    <path stroke-miterlimit="10" d="M7.336,0.672c0.633,0,2.141,4.339,2.141,4.339
+                        s4.789,0.103,4.789,0.696c0,0.634-3.465,3.377-3.465,3.377s1.387,4.359,0.816,4.768c-0.459,0.332-4.281-2.251-4.281-2.251
+                        s-3.798,2.442-4.283,2.251c-0.362-0.141,0.818-4.768,0.818-4.768S0.335,6.2,0.407,5.707C0.51,5.006,5.195,5.011,5.195,5.011
+                        S6.773,0.672,7.336,0.672z" />
+                    </svg>
+       
+            
+            <p id="type"></p>
+
+<!--	        <svg id="svg" width="800" height="600"></svg>-->
+	        <svg id="svg"></svg>
+
+            
+
+            </section>
+            
+          
+            
+        </div><!--end container-->
+    </main>
+    </body>
+    <script src="js/jquery.js"></script>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="js/main.js"></script>    
+    
+</html>
